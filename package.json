@@ -2,9 +2,9 @@
   "name": "web-meteor",
   "version": "1.0.0",
   "description": "Meteor Reactivity for your Web application",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && babel index.js -d dist && babel src -d dist/src && babel lib -d dist/lib && cp package.json LICENSE README.md dist",
+    "build": "rimraf dist && babel index.js -d dist && babel src -d dist/src && babel lib -d dist/lib",
     "test": "mocha --compilers js:babel-core/register --require test/setup --recursive"
   },
   "dependencies": {

@@ -1,12 +1,9 @@
-// import ReactNative from 'react-native';
 import minimongo from 'minimongo-cache';
 import Trackr from 'trackr';
-// import { InteractionManager } from 'react-native';
 process.nextTick = setImmediate;
 
 const db = new minimongo();
 db.debug = false;
-// db.batchedUpdates = ReactNative.unstable_batchedUpdates;
 
 function runAfterOtherComputations(fn){
   // InteractionManager.runAfterInteractions(() => {

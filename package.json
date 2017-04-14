@@ -1,7 +1,7 @@
 {
-  "name": "react-web-meteor",
-  "version": "0.2.2",
-  "description": "Meteor Reactivity for your React application",
+  "name": "web-meteor",
+  "version": "1.0.0",
+  "description": "Meteor Reactivity for your Web application",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && babel index.js -d dist && babel src -d dist/src && babel lib -d dist/lib && cp package.json LICENSE README.md dist",
@@ -12,8 +12,6 @@
     "crypto-js": "^3.1.6",
     "ejson": "^2.1.2",
     "minimongo-cache": "0.0.48",
-    "react-komposer": "^1.8.0",
-    "react-mixin": "^3.0.3",
     "trackr": "^2.0.2",
     "underscore": "^1.8.3",
     "wolfy87-eventemitter": "^4.3.0"
@@ -23,7 +21,6 @@
     "babel-core": "^6.7.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
@@ -33,16 +30,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zevenfang/react-meteor.git"
+    "url": "git+https://github.com/daominhsangvn/web-meteor.git"
   },
   "keywords": [
-    "react",
+    "web",
     "meteor"
   ],
-  "author": "Zeven Fang",
+  "author": "Shawn Dao",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/zevenfang/react-meteor/issues"
+    "url": "https://github.com/daominhsangvn/web-meteor/issues"
   },
-  "homepage": "https://github.com/zevenfang/react-meteor#readme"
+  "homepage": "https://github.com/daominhsangvn/web-meteor#readme"
 }

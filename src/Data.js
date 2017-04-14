@@ -1,5 +1,6 @@
 import minimongo from 'minimongo-cache';
 import Trackr from 'trackr';
+
 process.nextTick = setImmediate;
 
 const db = new minimongo();
